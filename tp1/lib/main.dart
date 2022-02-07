@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tp1/Favorites.dart';
 import 'package:tp1/Filmsmain.dart';
 import 'package:tp1/Library.dart';
 import 'package:tp1/Livresmain.dart';
@@ -36,10 +37,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   static const List<Widget> _widgetOptions = <Widget>[
     Home(),
     Library(),
-    Text(
-      'Index 3: Likes',
-      style: optionStyle,
-    ),
+    Favorite()
   ];
 
   void _onItemTapped(int index) {

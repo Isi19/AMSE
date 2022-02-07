@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tp1/objetMedia.dart';
 
@@ -16,14 +15,11 @@ class Home extends StatelessWidget {
             itemCount: home.length,
             itemBuilder: (BuildContext context, int index) {
               return ListTile(
-                title: Row(children: [
-                  SizedBox(
-                    //height: 100,
+                leading: SizedBox(
                     child: Image(
-                      image: NetworkImage(home[index].imageUrl, scale: 1),
-                    ),
-                  ),
-                ]),
+                  image: NetworkImage(home[index].imageUrl, scale: 1),
+                )),
+                title: Text(home[index].title),
                 subtitle: Text(
                   "Title : " + home[index].description,
                   style: const TextStyle(fontSize: 18),

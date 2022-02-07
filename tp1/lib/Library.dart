@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tp1/Livresmain.dart';
 
@@ -15,12 +14,12 @@ class Library extends StatelessWidget {
         child: Scaffold(
           appBar: AppBar(
             toolbarHeight: 20,
-            title: Text("Library"),
-            bottom: TabBar(
+            title: const Text("Library"),
+            bottom: const TabBar(
               tabs: [Tab(text: "Books"), Tab(text: "Films")],
             ),
           ),
-          body: TabBarView(
+          body: const TabBarView(
             children: [Livres(), Films()],
           ),
         ),
