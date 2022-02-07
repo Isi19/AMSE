@@ -1,16 +1,15 @@
-# tp1
+# TP1
+Le TP a pour objectif de développer une application mobile de type media qui contiendrait
+une libriarie de series, de films, de livres et une page d'accueil et éventuellement une 
+page de favorites.
+# Installation
 
-A new Flutter project.
+Pour exécuter l'application, il suffit de taper ces commandes suivantes dans la ligne de commandes : 
 
-## Getting Started
+1- Récuperer le package sur GitHub : git clone http://www.github.com/xxxx/amse.git
 
-This project is a starting point for a Flutter application.
+2-Se positionner dans le repertoire du package de l'application en l'occurence tp1 : cd amse/tp1
 
-A few resources to get you started if this is your first Flutter project:
+3- Ensuite nous allons pouvoir lancer notre application avec le flutter run : flutter run
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
